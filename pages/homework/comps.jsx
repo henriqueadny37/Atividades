@@ -1,0 +1,18 @@
+export default function Repeat(){
+    const ListaAprovados = [
+        'zero',
+        'zeroum',
+        'zerodois',
+        'zerotres',
+        'zeroquatro',
+    ]
+
+    function RenderLista(){
+        return ListaAprovados.map(function(nome, i){
+            return <li key={i}>{nome}</li>
+        })
+    }
+    return(
+        <ul>{RenderLista()}</ul>
+    )
+}

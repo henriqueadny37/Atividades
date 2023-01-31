@@ -1,0 +1,21 @@
+.amarelo{
+    background-color: #ff0;
+    color: #0000ff;
+    text-align: center;
+    font-weight: bold;
+    padding: 10px;
+}
+.verde{
+    background-color: #008000;
+    color: #fff;
+    text-align: center;
+    font-weight: bold;
+    padding: 10px;
+}
+.roxo{
+    background-color: #8a2be2;
+    color: #ff0;
+    text-align: center;
+    font-weight: bold;
+    padding: 10px;
+}
